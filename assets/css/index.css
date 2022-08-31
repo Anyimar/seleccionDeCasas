@@ -8,7 +8,7 @@ html{
     font-size: 62.5%;
 }
 
- :root {
+:root {
     /* Colores*/
     --verdefuerte:  #177553;
     --verdeSuave:  #125f31;
@@ -21,4 +21,35 @@ html{
     --grispesado: #444140;
     --negro:  #10160f;
     --blanco: #ffff;
+    --azul:#085360;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/imagenes/fondoWeb.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100vw;
+    height: 200px;
+    background-color: #0007205a;
+    border: solid rgba(255, 217, 0, 0.523) 1px;
+    top: 60px;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+}
+.header-contenedor{
+    position: relative;
+    
+    bottom: 70px;
+}
+
+.header-titulo{
+    width: 700px;
+    height: 400px;
 }
