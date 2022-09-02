@@ -45,7 +45,6 @@ header{
 }
 .header-contenedor{
     position: relative;
-    
     bottom: 70px;
 }
 
@@ -53,3 +52,40 @@ header{
     width: 700px;
     height: 400px;
 }
+
+header img{
+    width: 170px;
+    height: 200px;
+}
+header .casa{
+    position: absolute;
+    top:0px;
+    left: 30px;
+}
+ /* posicion de escudos*/
+
+ header .contenedorR {
+    left: 260px;
+ }
+
+ header .contenedorH {
+    left: 820px;
+ }
+
+ header .contenedorG {
+    left: 1060px;
+ }
+
+
+ .intro {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .intro p{
+    
+    color:#FAF8F7;
+    position: absolute;
+    bottom: 150px;
+ }
