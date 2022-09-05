@@ -1,20 +1,3 @@
-/* Colores guardados*/
-:root {
-    /* Colores*/
-    --verdefuerte:  #177553;
-    --verdeSuave:  #125f31;
-    --verdeOscuro:  #15302a;
-    --crema:  #e2e3e4;
-    --gris:  #b4aeb6;
-    --grisfuerte:  #7e7f83;
-    --gris:  #BABABA;
-    --blancohueso: #FAF8F7;
-    --grispesado: #444140;
-    --negro:  #10160f;
-    --blanco: #ffff;
-    --azul:#085360;
-}
-
 /*reiniciando estilos del navegador*/
 *{
     margin: 0;

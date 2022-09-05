@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+/* Colores guardados*/
+:root {
+    /* Colores*/
+    --verdefuerte:  #177553;
+    --verdeSuave:  #125f31;
+    --verdeOscuro:  #15302a;
+    --crema:  #e2e3e4;
+    --gris:  #b4aeb6;
+    --grisfuerte:  #7e7f83;
+    --blancohueso: #FAF8F7;
+    --grispesado: #444140;
+    --negro:  #000000;
+    --blanco: #ffff;
+    --azul:#085360;
+}
+
+/*Colores*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/imagenes/fondoWeb.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+/*Banderines soprepuestos*/
+.banderines{
+    position: absolute;
+    width: 240px;
+    height: 170px;
+}
+.I{
+    left: 15px;
+}
+
+.D {
+    right: 15px;
+}
+
+/*Cabecera*/
+.header{
+    width: 740px;
+    height: 70px;
+    border-radius: 0px 0px 100% 100%;
+    background-color: #000720ae;
+    border: solid rgba(255, 217, 0, 0.523) 1.5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header img{
+    width: 120px;
+    height: 90px;
+    margin: 0px -10px;
+    
+}
+
+.header .header-titulo{
+    position: relative;
+    top: 0;
+    width: 420px;
+    height: 120px;
+   
+}
+
+.header img:hover{
+    margin: 7px -10px;
+    width: 130px;
+}
+
+.header .header-titulo:hover{
+    width: 430px;
+}
+
+/*Carrucel*/
+
+.carrucel-contenedor{
+    margin:  0 auto;
+    margin-top: 60px;
+    width: 100vw;
+    height: 500px;
+    background-color: #0211087a;
+    border: solid rgba(255, 217, 0, 0.523) 1.5px;
+}
