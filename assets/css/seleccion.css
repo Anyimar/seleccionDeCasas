@@ -152,3 +152,33 @@ body{
         border: solid 1px white;
     }
 
+
+/*Ventanas Modal*/
+.fondo-modalS, .fondo-modalR, .fondo-modalG, .fondo-modalH{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.756);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    opacity: 0;
+
+}
+
+
+/*Propiedad para aparecer*/
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/*Tamaño de escudos*/
+.escudoDeCasa {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+
+}
