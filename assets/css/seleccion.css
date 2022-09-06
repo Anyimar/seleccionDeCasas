@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+/*Colores*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/imagenes/fondoWeb.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+/*Banderines soprepuestos*/
+.banderines{
+    position: absolute;
+    width: 240px;
+    height: 170px;
+}
+.I{
+    left: 15px;
+}
+
+.D {
+    right: 15px;
+}
+
+/*Cabecera*/
+.header{
+    width: 740px;
+    height: 70px;
+    border-radius: 0px 0px 100% 100%;
+    background-color: #000720ae;
+    border: solid rgba(255, 217, 0, 0.523) 1.5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header img{
+    width: 120px;
+    height: 90px;
+    margin: 0px -10px;
+    
+}
+
+.header .header-titulo{
+    position: relative;
+    top: 0;
+    width: 420px;
+    height: 120px;
+   
+}
+
+.header img:hover{
+    margin: 7px -10px;
+    width: 130px;
+}
+
+.header .header-titulo:hover{
+    width: 430px;
+}
+
+/*Carrucel*/
+.seccionPrincipal{
+    display: flex;
+    margin-top: 90px;
+    width: 100vw;
+    height: 550px; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.carrucel-contenedor{
+    width: 90vw;
+    height: 100%;
+    display: flex;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+}
+
+.contenedor::-webkit-scrollbar{
+    -webkit-appearance: none;
+    height: 10px;
+}
+
+.contenedor::-webkit-scrollbar-button{
+    display: none;
+} 
+
+.contenedor::-webkit-scrollbar-thumb {
+    background-color: #ed9e00;
+    border-radius: 20px;
+    border: 2px solid #ffff9f;
+}
+
+.contenedor::-webkit-scrollbar-track {
+    border-radius: 20px;  
+}
+
+/*Tarjetas*/
+.carrucel-contenedor .card{
+    width: 100%;
+    height: 97%;
+    background-image: url(/assets/imagenes/tarjeta.png);
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 6px 50px;
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+
+    /*parte interna*/
+    padding: 70px;
+    text-align: center; 
+}
+
+    /*parrafo*/
+    .card .situacion{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 1.8rem;
+    }
+
+    /*contenedor de botones*/
+    .card .contenedor-opciones{
+        width: 90%;
+        margin: 10px auto;
+        height: 280px;
+        
+        
+    }
+
+    /*Botones*/
+    .card .opciones{
+        color: #ffff9f;
+        background-color: #22013b;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 15px;
+        border: solid 1px white;
+    }
+
+
+/*Ventanas Modal*/
+.fondo-modalS, .fondo-modalR, .fondo-modalG, .fondo-modalH{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.756);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    opacity: 0;
+
+}
+
+
+/*Propiedad para aparecer*/
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/*Tamaño de escudos*/
+.escudoDeCasa {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+
+}
